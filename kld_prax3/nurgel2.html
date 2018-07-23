@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>  
+
+<body ng-app="contactApp" ng-controller="contactController">
+  <div class="row">
+    <form ng-submit="addContact()">
+      <div class="col-md-3">
+        <label for="name">Name:    </label>
+        <input type="text" name="name" ng-model="aContact.firstName" required>
+<span style="color:red" ng-show="myForm.user.$dirty && myForm.user.$invalid">
+<span ng-show="myForm.user.$error.required">Username is required.</span>
+</span>
+      </div>
+      <div class="col-md-3">
+        <label for="number">Birthyear:    </label>
+        <input type="number" name="number" min="1967" max="2017" ng-model="aContact.number" required>
+<span style="color:red" ng-show="myForm.number.$dirty && myForm.number.$invalid">
+<span ng-show="myForm.number.$error.required">number is required.</span>
+
+</span>
+      </div>
+      
+      <div class="col-md-3">
+        <input type="submit" value="Add Contact">
+      </div>
+    </form>
+  </div>
+  <table>
+    <th>
+      <tr>
+        <th>Cat name</th>
+        <th>Year</th>
+       
+      </tr>
+      <tr ng-repeat="contact in contacts track by $index">
+        <td>{{contact.firstName}}</td>
+        <td>{{contact.number}}</td>
+        
+      </tr>
+  </table>
+</body>
+<script>
+var app = angular.module('contactApp', []);
+app.controller('contactController', function($scope) {
+  $scope.aContact = {
+    firstName: "",
+    number: "",
+   
+  };
+  $scope.contacts = [];
+  $scope.addContact = function(firstName, number) {
+    $scope.contacts.push($scope.aContact);
+    $scope.aContact = {}; //clear contact after added to contact list
+  };
+});
+</script>
+</body>
+</html>
