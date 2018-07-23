@@ -1,0 +1,422 @@
+
+
+
+
+
+/*komment
+divide stylid
+
+*/
+@media screen {
+  body { font-size: 100% }
+}
+body{
+	background-color:#b6ddde;
+    margin:0px;
+	padding:0px;
+}
+.textIn{
+    position: absolute;
+	font-size: 250px;
+    z-index: 1;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	animation-duration: 1s;
+
+}
+
+.firework{
+	margin:auto;
+	position: fixed;
+    z-index: 1;
+	background-size: cover;
+}
+
+.button22:hover {
+    box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 7px 5px 0 rgba(0,0,0,0.29);
+}
+.hvr-grow:hover {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translate(0);
+     box-shadow: 0 6px 6px 0 rgba(0,0,0,0.24),0 7px 5px 0 rgba(0,0,0,0.29);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 10s;
+    transition-property: transform;
+}
+.button1 {/*verhnajaj kamen*/
+	display:block;
+    position: relative;
+    background-color: rgba(220, 222, 0, 1.0);
+	background-image: url(rock.png);
+	background-repeat: no-repeat;
+	background-size:contain;
+	background-position:center-left;
+    box-shadow:0 8px 10px 0 rgba(0, 0, 0, 0.26);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 85px 32px;
+    width: 98%;
+	margin: 10px auto;
+    text-align: right;
+	color:#fed1dc;
+	font-size: 350%;
+	font-family:helvetica;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}.button1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -120px !important;
+    margin-top: -130%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button1:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.button2 {/*nozhnicy*/
+	display:block;
+    position: relative;
+    background-color: #57c6ea;
+	background-image: url(paper.png);
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size:contain;
+    box-shadow:0 8px 10px 0 rgba(0, 0, 0, 0.26);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 85px 32px;
+    width: 98%;
+	margin: 10px auto;
+    text-align: right;
+	color:#fde3a7;
+	font-size: 350%;
+	font-family:helvetica;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button2:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -120px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button2:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.button3 {/*bumaga*/
+	display:block;
+    position: relative;
+    background-color: #bc96aa;	
+	background-image: url(scissors.png);
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size:contain;
+    box-shadow:0 8px 10px 0 rgba(0, 0, 0, 0.26);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 85px 32px;
+    width: 98%;
+	margin: 10px auto;
+    text-align: right;
+	color:#dcfed1;
+	font-size: 350%;
+	font-family:helvetica;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button3:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -120px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button3:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.button4 {/*start game ANGULAR MATERIAL*/
+    
+	display:run-in;
+    margin-left: 90%;
+    background-color: #f44336;	
+	box-shadow:0 8px 10px 0 rgba(0, 0, 0, 0.26);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 30px 30px 10px 30px;
+    width: 20%;
+	margin: 10px auto;
+	margin-left: 40%;
+    text-align: center;
+	color:#fde3a7;
+	font-size: 200%;
+	font-family:helvetica;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button4:after {
+	content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -120px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button4:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.button5 {/*end game  ANGULAR MATERIAL*/
+	display:run-in;	
+    position: relative;
+    background-color: #fd9115;
+	/*background-image: url(scissors.png);
+	background-repeat: no-repeat;
+	background-position:left;
+	background-size:contain;*/
+	box-shadow:0 8px 10px 0 rgba(0, 0, 0, 0.26);
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 30px 30px 10px 30px;
+    width: 15%;
+	left: 60%;
+	margin: 10px auto;
+    text-align: l;
+	color:black;
+	font-size: 250%;
+	font-family:helvetica;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button5:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -120px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+.button5:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.flex-container{	
+	display:flex;
+	height:550px;
+	/*display: inline-flex;
+	align:stretch;
+	width: 100%;*/
+	/*background-color: blue;//ne rabotalo*/	
+}
+.item1{/*vrode verhnaja kryshka*/     
+    margin:auto;
+	width:99.7%;
+	background-color:#0897b2;
+	height:83px;
+    width: stretch;
+}
+.flex-item{	
+	width:33%;
+	height:100%;
+	margin:auto;
+	/*overflow:hidden;*/
+	
+}
+.tri{
+	font-size: 208px;
+	text-decoration:underline;
+}
+.buttonRES
+{
+	background-color:#f44336; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+	color:#fde3a7;
+	font-size: 200%;
+	font-family:helvetica;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	
+}
+.buttonRES2:hover
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#pais{/*ne rabotajet*/
+	text-decoration:underline;
+}
+#vasaktulp {	
+	border-width:0px;   
+    background-color: #b6ddde;	
+}
+
+#kesktulp {
+	background-color: #b6ddde;  	
+	border-width:0px;*/
+}
+
+#paremtulp{
+	background-color: #b6ddde; 	
+	border-width:0px;
+}
+
+#keskelJaotus{
+	position:relative;
+	margin-top:10px;
+	margin:left;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 50em 50em 0 0;
+	border-color: #007bff transparent transparent transparent;
+}
+
+
+#SCORE2{
+	position:absolute;
+	top:80%;
+	left:60%;
+	/*if you don't know size you centering add position:fixed;top/left-same as was; 
+	css-tricks.com
+	transform: translate(-(topvalue),(-leftValue))*/
+}
+#keskVasak{
+	padding:10px;
+	display:inline;
+	float:left;
+}
+
+#keskParem{
+	padding:10px;
+	display:inline;
+	float:right;
+}
+
+#Koguskoor1{
+	color:#336e7b;
+}
+
+#PrintArray1{
+	color:#336e7b;
+}
+
+#Koguskoor2{
+	color:#336e7b;
+}
+
+#PrintArray2{
+	color:#336e7b;
+}
+
+#myMoveVisible{
+	margin-top:5px;
+	margin-left:35px;
+}
+#compMoveVisible{
+	margin-top:5px;
+	margin-left:35px;
+}
+#SCORE3{
+	color:#6461b6;
+	margin-top:5px;
+	margin-left:35px;
+}
+#HUMAN{
+	color:#336e7b;
+	margin: 25px 35px 4px;
+}
+#AI{
+	color:#336e7b;
+	margin: 25px 35px 4px;	
+}
+#restart{
+	margin-top:15px;
+	margin-left:45%;
+}
+/*ROUND BUTTON*/
+.buttonRES
+{
+	
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.resultImage {
+    width: 50px;
+    height: 50px;
+}
